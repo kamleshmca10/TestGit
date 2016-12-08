@@ -1,2 +1,37 @@
 1.This is for Git Testing 
 2.Modified the file and commit to GitHub
+
+Git steps with Github 
+---------------------
+1. Install Git in to window 
+2. Create git folder in C drive 
+3. Open Bash and create user and move to git folde using
+    "cd git/"
+4. Now create the user 
+   git config --global user.name "kamlesh" enter
+   git config --global user.email kamleshmca10@gmail.com enter
+
+5. Open Github account and create a new repository with name TestGit
+6. Now clone the repository in to Git
+   git clone https://github.com/kamleshmca10/TestGit.git
+
+   By above command TestGit folder will be created in C/git/TestGit.
+
+7. Create one test file inside TestGit folder and put some contents.
+
+8. Now we have to add this file 
+   git add test.txt
+
+9. Then fire command "git status" so it will show a new file 
+
+10.Now fire commit command 
+   git commit -m "first commit" test.txt
+
+11. Fire push command for final commit
+   git push -u origin master
+
+File commited to GitHub . Go to Github repo and check this new file.
+
+12. Again if we have some more changes then if we see the status then it will show modified for the same file. 
+
+    
